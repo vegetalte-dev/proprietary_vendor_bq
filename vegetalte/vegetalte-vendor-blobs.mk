@@ -230,11 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
-    
-# Ril
-PRODUCT_COPY_FILES += \
-    vendor/bq/vegetalte/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/bq/vegetalte/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml
 
 # Sensors
 PRODUCT_COPY_FILES += \
