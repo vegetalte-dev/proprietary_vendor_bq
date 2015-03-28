@@ -201,11 +201,13 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
@@ -220,15 +222,15 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/bin/radish:system/bin/radish \
     vendor/bq/vegetalte/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/bq/vegetalte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/vegetalte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/bq/vegetalte/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
 # Sensors
