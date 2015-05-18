@@ -44,8 +44,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/bq/vegetalte/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so
+    vendor/bq/vegetalte/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
 # Camera
 PRODUCT_COPY_FILES += \
