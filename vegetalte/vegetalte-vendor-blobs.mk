@@ -188,7 +188,7 @@ PRODUCT_COPY_FILES += \
 
 # Perf
 PRODUCT_COPY_FILES += \
-    vendor/bq/vegetalte/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/bq/vegetalte/proprietary/bin/perfd:system/bin/perfd \
     vendor/bq/vegetalte/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Postprocessing
