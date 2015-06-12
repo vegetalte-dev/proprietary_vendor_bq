@@ -130,11 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
 
-# FM radio
-PRODUCT_COPY_FILES += \
-    vendor/bq/vegetalte/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/bq/vegetalte/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
-
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/bin/loc_launcher:system/bin/loc_launcher \
