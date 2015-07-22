@@ -52,6 +52,15 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345.so:system/vendor/lib/libactuator_AK7345.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345_camcorder.so:system/vendor/lib/libactuator_AK7345_camcorder.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345_camera.so:system/vendor/lib/libactuator_AK7345_camera.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_common.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_common.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_default_video.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_default_video.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_60fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_60fps.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_90fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_90fps.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_120fps.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_liveshot.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_liveshot.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_preview.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_preview.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_snapshot.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_snapshot.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_video_hd.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_video_hd.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_common.so:system/vendor/lib/libchromatix_hi545_8916_common.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_default_video.so:system/vendor/lib/libchromatix_hi545_8916_default_video.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so \
@@ -61,29 +70,16 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_preview.so:system/vendor/lib/libchromatix_hi545_8916_preview.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_snapshot.so:system/vendor/lib/libchromatix_hi545_8916_snapshot.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_video_hd.so:system/vendor/lib/libchromatix_hi545_8916_video_hd.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_common.so:system/vendor/lib/libchromatix_imx214_8916_common.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_default_video.so:system/vendor/lib/libchromatix_imx214_8916_default_video.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_60fps.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_90fps.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_liveshot.so:system/vendor/lib/libchromatix_imx214_8916_liveshot.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_preview.so:system/vendor/lib/libchromatix_imx214_8916_preview.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_snapshot.so:system/vendor/lib/libchromatix_imx214_8916_snapshot.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_video_hd.so:system/vendor/lib/libchromatix_imx214_8916_video_hd.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_common.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_common.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_default_video.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_default_video.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_hfr_60fps.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_hfr_90fps.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_liveshot.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_liveshot.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_preview.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_preview.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_snapshot.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_snapshot.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_video_hd.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_video_hd.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hi545_8916.so:system/vendor/lib/libmmcamera_hi545_8916.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hynix_hi545_eeprom.so:system/vendor/lib/libmmcamera_hynix_hi545_eeprom.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imx214_8916.so:system/vendor/lib/libmmcamera_imx214_8916.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so:system/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_truly_cm9887qr_eeprom.so:system/vendor/lib/libmmcamera_truly_cm9887qr_eeprom.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -97,6 +93,20 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hi545_8916.so:system/vendor/lib/libmmcamera_hi545_8916.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hi545_8916_cm9887qr.so:system/vendor/lib/libmmcamera_hi545_8916_cm9887qr.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_hynix_hi545_eeprom.so:system/vendor/lib/libmmcamera_hynix_hi545_eeprom.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imx214_8916_cm9886qr.so:system/vendor/lib/libmmcamera_imx214_8916_cm9886qr.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so:system/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
