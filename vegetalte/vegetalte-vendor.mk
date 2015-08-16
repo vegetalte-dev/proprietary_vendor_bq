@@ -16,14 +16,7 @@
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-	qcrilmsgtunnel \
-    shutdownlistener \
     TimeService
-
-# Prebuilt frameworks    
-PRODUCT_PACKAGES += \
-    qcnvitems \
-    qcrilhook
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
