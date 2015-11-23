@@ -134,17 +134,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/bq/vegetalte/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
-    vendor/bq/vegetalte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/bq/vegetalte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
+    vendor/bq/vegetalte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # GPS
 #PRODUCT_COPY_FILES += \
