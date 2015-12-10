@@ -51,9 +51,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/bq/vegetalte/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/bq/vegetalte/proprietary/lib/libcam.meiyan.so:system/lib/libcam.meiyan.so \
-    vendor/bq/vegetalte/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/bq/vegetalte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/bq/vegetalte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/bq/vegetalte/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/bq/vegetalte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345.so:system/vendor/lib/libactuator_AK7345.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345_camcorder.so:system/vendor/lib/libactuator_AK7345_camcorder.so \
@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
