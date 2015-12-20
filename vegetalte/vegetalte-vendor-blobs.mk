@@ -29,6 +29,13 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD_E5S/QRD_Bluetooth_cal_E5S.acdb:system/etc/acdbdata/QRD_E5S/QRD_Bluetooth_cal_E5S.acdb \
+    vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD_E5S/QRD_General_cal_E5S.acdb:system/etc/acdbdata/QRD_E5S/QRD_General_cal_E5S.acdb \
+    vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD_E5S/QRD_Global_cal_E5S.acdb:system/etc/acdbdata/QRD_E5S/QRD_Global_cal_E5S.acdb \
+    vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD_E5S/QRD_Handset_cal_E5S.acdb:system/etc/acdbdata/QRD_E5S/QRD_Handset_cal_E5S.acdb \
+    vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD_E5S/QRD_Hdmi_cal_E5S.acdb:system/etc/acdbdata/QRD_E5S/QRD_Hdmi_cal_E5S.acdb \
+    vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD_E5S/QRD_Headset_cal_E5S.acdb:system/etc/acdbdata/QRD_E5S/QRD_Headset_cal_E5S.acdb \
+    vendor/bq/vegetalte/proprietary/etc/acdbdata/QRD_E5S/QRD_Speaker_cal_E5S.acdb:system/etc/acdbdata/QRD_E5S/QRD_Speaker_cal_E5S.acdb \
     vendor/bq/vegetalte/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
