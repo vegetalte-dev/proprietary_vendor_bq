@@ -124,7 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imx214_8916_cm9886qr.so:system/vendor/lib/libmmcamera_imx214_8916_cm9886qr.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imx214_cma846.so:system/vendor/lib/libmmcamera_imx214_cma846.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imx214_cma846.so:system/vendor/lib/libmmcamera_imx214_cma846.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_imx214_cma846_eeprom.so:system/vendor/lib/libmmcamera_imx214_cma846_eeprom.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so:system/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so \
