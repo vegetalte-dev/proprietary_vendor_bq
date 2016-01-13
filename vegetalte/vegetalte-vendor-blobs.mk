@@ -260,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/bin/radish:system/bin/radish \
     vendor/bq/vegetalte/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/bq/vegetalte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/vegetalte/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
