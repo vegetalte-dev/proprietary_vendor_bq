@@ -169,12 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/bq/vegetalte/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/bq/vegetalte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/bq/vegetalte/proprietary/lib/hw/gps.msm8916.so:system/lib/hw/gps.msm8916.so \
-    vendor/bq/vegetalte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/bq/vegetalte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/bq/vegetalte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/bq/vegetalte/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/bq/vegetalte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
