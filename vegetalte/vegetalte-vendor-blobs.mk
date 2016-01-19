@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345.so:system/vendor/lib/libactuator_AK7345.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345_camcorder.so:system/vendor/lib/libactuator_AK7345_camcorder.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_AK7345_camera.so:system/vendor/lib/libactuator_AK7345_camera.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_dw9800w_cma846.so:system/vendor/lib/libactuator_dw9800w_cma846.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_dw9800w_cma846_camcorder.so:system/vendor/lib/libactuator_dw9800w_cma846_camcorder.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libactuator_dw9800w_cma846_camera.so:system/vendor/lib/libactuator_dw9800w_cma846_camera.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_common.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_common.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_default_video.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_default_video.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_60fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_60fps.so \
