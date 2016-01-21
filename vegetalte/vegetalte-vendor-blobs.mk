@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/bq/vegetalte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/bq/vegetalte/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/bq/vegetalte/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/bq/vegetalte/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/bq/vegetalte/proprietary/lib/libcam.meiyan.so:system/lib/libcam.meiyan.so \
     vendor/bq/vegetalte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
