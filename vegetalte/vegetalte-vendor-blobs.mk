@@ -169,13 +169,20 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
+    vendor/bq/vegetalte/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/bq/vegetalte/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/bq/vegetalte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/vegetalte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/bq/vegetalte/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/bq/vegetalte/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so
+    vendor/bq/vegetalte/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/bq/vegetalte/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so
 
 # Graphics
 PRODUCT_COPY_FILES += \
